@@ -1,5 +1,5 @@
 number=int(input("Please enter a six-digit number= "))
-n2=(number//10%10)
-n5=(number//10000%10)
-sum=n2+n5
+SecondDigit=(number//10%10)
+FifthDigit=(number//10000%10)
+sum=SecondDigit+FifthDigit
 print(sum)
